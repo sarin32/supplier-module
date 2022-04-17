@@ -1,0 +1,102 @@
+/* colours- theme 29
+-------------
+    #182628
+    #65bcb8
+    #57ba98
+    #3b945e
+    #f2f2f2 */
+
+html{
+    padding: 0px;
+}
+    body{
+    margin: 0px;
+    padding: 0px;
+}
+hr{
+    margin: 0px;
+    background-color: #57ba98;
+    border: none;
+    height: 1px;
+}
+table{
+    border: 3px solid #57ba98;
+    padding: 0px;
+}
+th,thead{
+    border: 1px solid #57ba98;
+    background-color: #57ba98;
+}
+form>fieldset>ol>li{
+    margin: 10px;
+}
+#banner {
+    padding: 10px;
+    height: 250px;
+    width: 100%;
+    color: #182628;
+    background-color: #65bcb8; 
+}
+
+#logo{
+    height: 90px;
+    width: 350px;
+}
+
+#content {
+    /* padding: 10px; */
+    top: 250px;
+    height: 1000px;
+    width: 100%;
+    color: #f2f2f2;
+    background-color:#3b945e;
+    float: left;
+}
+#content-index {
+    width: 65%;
+    float: left;
+}
+#video {
+    left:65%;
+    height: 1000px;
+    width: 35%;
+    float: right;
+}
+
+
+
+/* .first{
+    background-color: rgb(236, 72, 22);
+    color: aliceblue;
+}
+.second{
+    background-color: rgb(43, 141, 40);
+    color: aliceblue;
+}
+.third{
+    background-color: rgb(47, 85, 155);
+    color: aliceblue;
+}
+p{
+    background-color: rgb(41, 10, 12);
+    color: aliceblue;
+} */
+
+
+/* p[class *= "rectangle"]{
+    background-color: red;
+}
+p[class $= "rectangle"]{
+    background-color: red;
+} */
+
+/* p[class ^= "rectangle"]{
+    background-color: red;
+} */
+/* li>a{
+    background-color: blue;
+} */
+
+/* p span{
+    background-color: blue;
+} */

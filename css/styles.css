@@ -1,0 +1,70 @@
+#banner {
+    color: #182628;
+    background-color: #65bcb8;
+    height: 80px;
+}
+
+body {
+    background-color: #57ba98;
+}
+
+#contents {
+    /* color: #f2f2f2; */
+    background-color: #57ba98;
+    min-height: 750px;
+}
+
+#footer {
+    color: #182628;
+    background-color: #65bcb8;
+}
+
+nav>div>ul>li>a,
+nav>div>ul>li>a:visited,
+nav>div>ul>li>button:visited,
+nav>div>ul>li>button{
+    font-size: medium;
+    color: #f2f2f2;
+    background-color: #3b945e !important;
+    margin: 5px;
+    border-radius: 3px;
+    transition: 0.6s ease-out;
+}
+
+nav>div>ul>li>a:hover,
+nav>div>ul>li>button:hover {
+    color: #f2f2f2;
+    background-color: #3b945e;
+    transform: rotateX(360deg);
+    transition: 1s ease;
+}
+
+.card {
+    width: 18rem;
+    margin: 20px;
+    padding: 0px;
+    transition: 0.4s ease-in;
+    background-color: #3b945e;
+    box-shadow: 0px 0px 6px 2px #65bcb8;
+    color: #f2f2f2;
+    border: none;
+
+}
+.card button{
+    background-color: #57ba98;
+    color: #f2f2f2;
+    border: none;
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+}
+.card img{
+    height: 300px;
+    width: 100%;
+    margin: auto;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
